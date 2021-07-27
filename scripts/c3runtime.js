@@ -2768,7 +2768,9 @@ this._y)[getx?0:1];else return 0}}}};
 		C3.Plugins.Sprite.Acts.Destroy,
 		C3.Plugins.Sprite.Acts.SetVisible,
 		C3.Plugins.Sprite.Acts.SetTowardPosition,
-		C3.Plugins.Sprite.Cnds.CompareFrame
+		C3.Plugins.Sprite.Cnds.CompareFrame,
+		C3.Plugins.Sprite.Cnds.OnAnimFinished,
+		C3.Plugins.System.Acts.Wait
 		];
 	};
 	self.C3_JsPropNameTable = [
@@ -2796,7 +2798,11 @@ this._y)[getx?0:1];else return 0}}}};
 		{Tick: 0},
 		{Clicking: 0},
 		{Clock: 0},
-		{Soaking: 0}
+		{Soaking: 0},
+		{Cheering: 0},
+		{Congratulations: 0},
+		{Text: 0},
+		{Clean: 0}
 	];
 }
 
@@ -2909,7 +2915,10 @@ this._y)[getx?0:1];else return 0}}}};
 		() => 149,
 		() => 178,
 		() => 1,
-		() => "Animation1"
+		() => "Animation1",
+		() => "Animation 1",
+		() => 3,
+		() => "End Screen"
 	];
 }
 
