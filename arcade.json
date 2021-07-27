@@ -1,0 +1,22 @@
+{
+	"name": "Cutlery Cleaner",
+	"version": "1.0.0.0",
+	"description": "",
+	"id": "",
+	"unique-id": "yqfkziuj8dd",
+	"viewport-width": 598,
+	"viewport-height": 276,
+	"author": "",
+	"email": "",
+	"website": "",
+	"orientations": "landscape",
+	"c2version": "244",
+	"c3version": "r251.2",
+	"ife": false,
+	"used-plugins": [
+		"Sprite",
+		"Text",
+		"Touch"
+	],
+	"used-behaviors": []
+}
